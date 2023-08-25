@@ -1,0 +1,126 @@
+{
+  "kind": "singleType",
+  "collectionName": "abouts",
+  "info": {
+    "singularName": "about",
+    "pluralName": "abouts",
+    "displayName": "About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "aboutText": {
+      "type": "string"
+    },
+    "aboutMssg": {
+      "type": "text"
+    },
+    "aboutImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "projectComponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-page.about-page-project-compo"
+    },
+    "whatWe": {
+      "type": "string"
+    },
+    "mssg": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "whatWeDoComponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-page.what-we-do-compo"
+    },
+    "verticalImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "verticalHeading": {
+      "type": "string"
+    },
+    "verticalMssg": {
+      "type": "text"
+    },
+    "verticalComponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-page.vertical-compo"
+    },
+    "dedicatedheading": {
+      "type": "string"
+    },
+    "dedicatedMssg": {
+      "type": "text"
+    },
+    "dedicatedComponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-page.dedicated-compo"
+    },
+    "locHeading": {
+      "type": "string"
+    },
+    "locTitle": {
+      "type": "string"
+    },
+    "locMssg": {
+      "type": "text"
+    },
+    "locComponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-page.loc-compo"
+    },
+    "avenegersTitle": {
+      "type": "string"
+    },
+    "avengersMssg": {
+      "type": "string"
+    },
+    "avengersTeamImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-page.avengers-compo"
+    },
+    "footerHeading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.footer"
+    }
+  }
+}

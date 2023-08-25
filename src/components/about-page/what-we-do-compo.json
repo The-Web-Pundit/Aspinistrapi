@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_about_page_what_we_do_compos",
+  "info": {
+    "displayName": "WhatWeDoCompo"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "imageHeading": {
+      "type": "string"
+    },
+    "imageMssg": {
+      "type": "text"
+    }
+  }
+}

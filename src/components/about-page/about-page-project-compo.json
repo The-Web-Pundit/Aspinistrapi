@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_page_about_page_project_compos",
+  "info": {
+    "displayName": "AboutPageProjectCompo"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}

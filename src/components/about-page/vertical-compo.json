@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_page_vertical_compos",
+  "info": {
+    "displayName": "VerticalCompo"
+  },
+  "options": {},
+  "attributes": {
+    "mssg": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "text"
+    }
+  }
+}

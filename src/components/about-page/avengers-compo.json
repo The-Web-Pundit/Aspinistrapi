@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_about_page_avengers_compos",
+  "info": {
+    "displayName": "AvengersCompo"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_about_page_loc_compos",
+  "info": {
+    "displayName": "LocCompo"
+  },
+  "options": {},
+  "attributes": {
+    "direction": {
+      "type": "string"
+    },
+    "address": {
+      "type": "string"
+    }
+  }
+}
