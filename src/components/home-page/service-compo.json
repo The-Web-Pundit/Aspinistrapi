@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_page_service_compos",
+  "info": {
+    "displayName": "serviceCompo"
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "textMssg": {
+      "type": "string"
+    },
+    "textImage": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_footer_quick_links",
+  "info": {
+    "displayName": "QuickLinks"
+  },
+  "options": {},
+  "attributes": {
+    "text1": {
+      "type": "string"
+    },
+    "text2": {
+      "type": "string"
+    },
+    "text3": {
+      "type": "string"
+    },
+    "text4": {
+      "type": "string"
+    }
+  }
+}

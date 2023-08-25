@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_footer_say_hellos",
+  "info": {
+    "displayName": "SayHello"
+  },
+  "options": {},
+  "attributes": {
+    "email": {
+      "type": "email"
+    },
+    "phoneNo": {
+      "type": "biginteger"
+    }
+  }
+}

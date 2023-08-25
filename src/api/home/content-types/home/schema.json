@@ -1,0 +1,103 @@
+{
+  "kind": "singleType",
+  "collectionName": "homes",
+  "info": {
+    "singularName": "home",
+    "pluralName": "homes",
+    "displayName": "Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "titleDesc": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "richtext"
+    },
+    "imageTitle": {
+      "type": "string"
+    },
+    "imageText": {
+      "type": "text"
+    },
+    "imageDesc": {
+      "type": "richtext"
+    },
+    "ReadMore": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.button"
+    },
+    "numberComponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.number-compo"
+    },
+    "services": {
+      "type": "string"
+    },
+    "serviceMssg": {
+      "type": "richtext"
+    },
+    "serviceComponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.service-compo"
+    },
+    "serviceDynamicImages": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.dynamic-images"
+    },
+    "dynamicPage": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.dynamic-pages"
+    },
+    "testimonialText": {
+      "type": "string"
+    },
+    "testimonialMssg": {
+      "type": "string"
+    },
+    "testimonialImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "testimonialComponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.testimonial-compo"
+    },
+    "blogHeading": {
+      "type": "string"
+    },
+    "blogMssg": {
+      "type": "string"
+    },
+    "blogComponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "home-page.blog-compo"
+    },
+    "footerHeading": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.footer"
+    }
+  }
+}

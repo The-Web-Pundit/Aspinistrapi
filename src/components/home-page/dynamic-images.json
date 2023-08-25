@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_home_page_dynamic_images",
+  "info": {
+    "displayName": "dynamicImages"
+  },
+  "options": {},
+  "attributes": {
+    "images": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

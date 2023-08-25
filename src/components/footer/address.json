@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_footer_addresses",
+  "info": {
+    "displayName": "address"
+  },
+  "options": {},
+  "attributes": {
+    "mssg": {
+      "type": "text"
+    }
+  }
+}
