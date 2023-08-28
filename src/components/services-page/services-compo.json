@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_services_page_services_compos",
+  "info": {
+    "displayName": "ServicesCompo"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "desc": {
+      "type": "string"
+    },
+    "mssg": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    }
+  }
+}

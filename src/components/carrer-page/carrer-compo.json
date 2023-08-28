@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_carrer_page_carrer_compos",
+  "info": {
+    "displayName": "Carrer-compo"
+  },
+  "options": {},
+  "attributes": {
+    "location": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "category": {
+      "type": "string"
+    },
+    "course": {
+      "type": "string"
+    }
+  }
+}

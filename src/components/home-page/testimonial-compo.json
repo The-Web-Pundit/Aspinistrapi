@@ -1,32 +1,35 @@
 {
   "collectionName": "components_home_page_testimonial_compos",
   "info": {
-    "displayName": "TestimonialCompo"
+    "displayName": "TestimonialCompo",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "ratingImage": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "ratingMssg": {
-      "type": "string"
+      "type": "text"
     },
     "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "name": {
       "type": "string"

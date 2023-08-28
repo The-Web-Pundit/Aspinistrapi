@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_services_page_process_compos",
+  "info": {
+    "displayName": "ProcessCompo"
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "number": {
+      "type": "string"
+    },
+    "mssg": {
+      "type": "string"
+    }
+  }
+}

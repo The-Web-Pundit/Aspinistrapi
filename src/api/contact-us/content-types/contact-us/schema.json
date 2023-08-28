@@ -1,0 +1,31 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_uses",
+  "info": {
+    "singularName": "contact-us",
+    "pluralName": "contact-uses",
+    "displayName": "ContactUs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "mssg": {
+      "type": "string"
+    },
+    "mssg1": {
+      "type": "string"
+    },
+    "phoneNo": {
+      "type": "biginteger"
+    }
+  }
+}

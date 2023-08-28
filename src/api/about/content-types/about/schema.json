@@ -16,7 +16,7 @@
       "type": "string"
     },
     "aboutText": {
-      "type": "string"
+      "type": "text"
     },
     "aboutMssg": {
       "type": "text"

@@ -1,0 +1,92 @@
+{
+  "kind": "collectionType",
+  "collectionName": "services",
+  "info": {
+    "singularName": "service",
+    "pluralName": "services",
+    "displayName": "Service",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "heading": {
+      "type": "string"
+    },
+    "headingMssg": {
+      "type": "string"
+    },
+    "button": {
+      "type": "string"
+    },
+    "servicesTitle": {
+      "type": "string"
+    },
+    "servicesHeading": {
+      "type": "string"
+    },
+    "serviceComponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services-page.services-compo"
+    },
+    "processTitle": {
+      "type": "string"
+    },
+    "processTitle1": {
+      "type": "string"
+    },
+    "processComponent": {
+      "type": "component",
+      "repeatable": true,
+      "component": "services-page.process-compo"
+    },
+    "whoAreTitle": {
+      "type": "string"
+    },
+    "whoAreMssg": {
+      "type": "string"
+    },
+    "who_Field1": {
+      "type": "string"
+    },
+    "who_Field2": {
+      "type": "string"
+    },
+    "who_Field3": {
+      "type": "string"
+    },
+    "who_Field4": {
+      "type": "string"
+    },
+    "verticalsTitle": {
+      "type": "string"
+    },
+    "verticalsHeading": {
+      "type": "string"
+    },
+    "verticalCompo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-page.vertical-compo"
+    },
+    "vertical_Image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "footer": {
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.footer"
+    }
+  }
+}
