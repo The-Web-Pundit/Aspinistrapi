@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolios",
+  "info": {
+    "singularName": "portfolio",
+    "pluralName": "portfolios",
+    "displayName": "Portfolio",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "portfolio_posts": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::portfolio-post.portfolio-post",
+      "mappedBy": "portfolio"
+    }
+  }
+}

@@ -47,7 +47,7 @@
       "type": "string"
     },
     "whoAreMssg": {
-      "type": "string"
+      "type": "text"
     },
     "who_Field1": {
       "type": "string"
