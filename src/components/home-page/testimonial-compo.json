@@ -17,9 +17,6 @@
         "audios"
       ]
     },
-    "ratingMssg": {
-      "type": "text"
-    },
     "image": {
       "type": "media",
       "multiple": true,
@@ -36,6 +33,9 @@
     },
     "designation": {
       "type": "string"
+    },
+    "ratingDesc": {
+      "type": "richtext"
     }
   }
 }

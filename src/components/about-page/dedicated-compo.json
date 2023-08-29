@@ -1,25 +1,30 @@
 {
   "collectionName": "components_about_page_dedicated_compos",
   "info": {
-    "displayName": "DedicatedCompo"
+    "displayName": "DedicatedCompo",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     },
     "title": {
       "type": "string"
     },
     "desc": {
       "type": "text"
+    },
+    "button": {
+      "type": "string"
     }
   }
 }

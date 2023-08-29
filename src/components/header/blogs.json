@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_header_blogs",
+  "info": {
+    "displayName": "blogs"
+  },
+  "options": {},
+  "attributes": {
+    "subfield": {
+      "type": "string"
+    }
+  }
+}

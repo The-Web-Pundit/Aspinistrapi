@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_header_portfolios",
+  "info": {
+    "displayName": "portfolio"
+  },
+  "options": {},
+  "attributes": {
+    "subfield": {
+      "type": "string"
+    }
+  }
+}

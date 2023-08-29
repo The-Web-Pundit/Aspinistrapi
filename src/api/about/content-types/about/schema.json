@@ -15,13 +15,13 @@
     "heading": {
       "type": "string"
     },
-    "aboutText": {
+    "Text": {
       "type": "text"
     },
-    "aboutMssg": {
+    "Description": {
       "type": "text"
     },
-    "aboutImage": {
+    "Image": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -40,7 +40,7 @@
     "whatWe": {
       "type": "string"
     },
-    "mssg": {
+    "Message": {
       "type": "text"
     },
     "image": {
@@ -92,13 +92,13 @@
       "repeatable": true,
       "component": "about-page.dedicated-compo"
     },
-    "locHeading": {
+    "locationHeading": {
       "type": "string"
     },
-    "locTitle": {
+    "locationTitle": {
       "type": "string"
     },
-    "locMssg": {
+    "locationDesc": {
       "type": "text"
     },
     "locComponent": {
@@ -109,18 +109,30 @@
     "avenegersTitle": {
       "type": "string"
     },
-    "avengersMssg": {
+    "avengersDescription": {
       "type": "string"
     },
-    "avengersTeamImages": {
+    "teamMembers": {
       "type": "component",
       "repeatable": true,
       "component": "about-page.avengers-compo"
     },
-    "footerHeading": {
-      "type": "component",
-      "repeatable": true,
-      "component": "footer.footer"
+    "Map": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "MetaTitle": {
+      "type": "string"
+    },
+    "MetaDescription": {
+      "type": "text"
     }
   }
 }

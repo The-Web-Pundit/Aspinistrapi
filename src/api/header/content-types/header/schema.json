@@ -1,5 +1,5 @@
 {
-  "kind": "collectionType",
+  "kind": "singleType",
   "collectionName": "headers",
   "info": {
     "singularName": "header",
@@ -12,13 +12,32 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "field1": {
       "type": "string"
     },
-    "sub_Title": {
+    "field2": {
+      "type": "string"
+    },
+    "Service": {
       "type": "component",
       "repeatable": true,
       "component": "header.sub-title"
+    },
+    "Portfolio": {
+      "type": "component",
+      "repeatable": true,
+      "component": "header.portfolio"
+    },
+    "Blogs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "header.blogs"
+    },
+    "field3": {
+      "type": "string"
+    },
+    "field4": {
+      "type": "string"
     }
   }
 }

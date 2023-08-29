@@ -1,7 +1,8 @@
 {
   "collectionName": "components_footer_say_hellos",
   "info": {
-    "displayName": "SayHello"
+    "displayName": "Say-Hello",
+    "description": ""
   },
   "options": {},
   "attributes": {

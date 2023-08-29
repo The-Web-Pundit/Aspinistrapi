@@ -1,11 +1,12 @@
 {
   "collectionName": "components_header_sub_titles",
   "info": {
-    "displayName": "sub_title"
+    "displayName": "services",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "sub_field": {
+    "field": {
       "type": "string"
     }
   }

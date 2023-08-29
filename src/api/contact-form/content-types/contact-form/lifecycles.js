@@ -6,7 +6,7 @@ module.exports = {
           to: "vajintha1511@gmail.com",
           from: "gamatam.vajintha@zysk.tech",
           replyTo: "gamatam.vajintha@zysk.tech",
-          subject: "New Contact form submission from Z3Partners Website*******",
+          subject: "New Contact form submission from ASPINO-GEEKFOLIO Website*******",
           html: `
                 
           Name :  ${result.Name}  <br/>
