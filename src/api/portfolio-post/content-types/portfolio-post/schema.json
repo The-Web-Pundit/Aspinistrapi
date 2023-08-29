@@ -69,11 +69,6 @@
     },
     "luxuryField": {
       "type": "string"
-    },
-    "footer": {
-      "type": "component",
-      "repeatable": true,
-      "component": "footer.footer"
     }
   }
 }

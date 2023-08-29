@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_services_page_vertical_compos",
+  "info": {
+    "displayName": "VerticalCompo"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "title": {
+      "type": "string"
+    },
+    "desc": {
+      "type": "richtext"
+    }
+  }
+}

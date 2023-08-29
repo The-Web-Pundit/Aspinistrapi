@@ -1,19 +1,27 @@
 {
   "collectionName": "components_about_page_avengers_compos",
   "info": {
-    "displayName": "AvengersCompo"
+    "displayName": "AvengersCompo",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "image": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
+    },
+    "Name": {
+      "type": "string"
+    },
+    "designation": {
+      "type": "string"
     }
   }
 }

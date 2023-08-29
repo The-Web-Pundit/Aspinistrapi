@@ -67,11 +67,6 @@
     "verticalsHeading": {
       "type": "string"
     },
-    "verticalCompo": {
-      "type": "component",
-      "repeatable": true,
-      "component": "about-page.vertical-compo"
-    },
     "vertical_Image": {
       "type": "media",
       "multiple": true,
@@ -83,10 +78,10 @@
         "audios"
       ]
     },
-    "footer": {
+    "VerticalCopmonent": {
       "type": "component",
       "repeatable": true,
-      "component": "footer.footer"
+      "component": "services-page.vertical-compo"
     }
   }
 }

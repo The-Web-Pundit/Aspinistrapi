@@ -20,6 +20,12 @@
       "relation": "manyToMany",
       "target": "api::blog-post.blog-post",
       "mappedBy": "blogs"
+    },
+    "Meta_Title": {
+      "type": "string"
+    },
+    "Meta_Desc": {
+      "type": "text"
     }
   }
 }
