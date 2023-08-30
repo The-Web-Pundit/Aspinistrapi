@@ -18,7 +18,7 @@
 
 const path = require('path');
 module.exports = ({ env }) => {
-  const client = env('DATABASE_CLIENT', 'postgres');
+  const client = env('DATABASE_CLIENT', 'postgresql');
   const connections = {
     postgres: {
       connection: {
